@@ -1,0 +1,19 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Workflow: 1. Fork the repo. 1. Clone **your** forked repository. 1. Create a new branch `git checkout -b develop`. 1. Resolve tasks in the `cypress`/`integration`/`firstTest.spec.js`. 1. Create a pull request.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.9.0"
+  },
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.35.2",
+    "@wdio/allure-reporter": "^7.30.1"
+  }
+}
